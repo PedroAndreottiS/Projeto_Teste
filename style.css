@@ -5,14 +5,26 @@
 .logo{
     opacity: 0.75;
     filter: blur(2px);
-    margin-left: 40%;
+    margin-left: 29.5%;
 }
 .page-footer{
     margin-top: 15.5%;
 }
-.autocomplete{
-    color: white;
-    font-weight: bolder;
+.slogan{
+    margin-left: 25.5%;
+}
+.customBar{
+    background-color: rgba(128,128,128,0.5);
+    height:2px;
+}
+.customBar2{
+    background-color: darkslategray;
+    height:2px;
+}
+.centering{
+    margin-left: 25%;
+    width: 50%;
+    height: 100px;
 }
 
 body{
