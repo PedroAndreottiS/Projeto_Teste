@@ -1,17 +1,31 @@
-.searchingInput{
-    background-color: rgba(255,255,255,0.2);
-    border-radius: 12px;
+body{
+    background-color: rgba(0,0,0,0.0125);
 }
 .logo{
     opacity: 0.75;
     filter: blur(2px);
-    margin-left: 29.5%;
+    z-index: -1;
+    margin: 0% 25% 0% 25%;
+}
+@media (max-width: 925px) {
+    .logo{
+        opacity: 0.75;
+        filter: blur(2px);
+        z-index: -1;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+}
+.sizeAjust{
+    height: 50px;
+    width: 50px;
 }
 .page-footer{
     margin-top: 15.5%;
 }
 .slogan{
     margin-left: 25.5%;
+    width: 50%;
 }
 .customBar{
     background-color: rgba(128,128,128,0.5);
@@ -22,11 +36,40 @@
     height:2px;
 }
 .centering{
-    margin-left: 25%;
     width: 50%;
-    height: 100px;
+    margin: 1% 0% 1% 25%;
 }
-
-body{
-    background-color: rgba(0,0,0,0.0125);
+.txtZero{
+    color: black;
+    font-size: medium;
+}
+.bolded{
+    font-weight: bolder;
+    border-bottom: 1.5px solid rgba(0,0,0,0.5);
+}
+.sized{
+    width: 25px;
+    height: 25px;
+    box-shadow: 0px 0px 10px 1px rgba(100, 100, 100, 0.5);
+    transition: all 0.1s linear;
+}
+.blueLght:hover{
+    box-shadow: 0px 0px 10px 2px rgb(0, 38, 255);
+    background-color: rgb(149, 149, 255);
+}
+.blIght:hover{
+    box-shadow: 0px 0px 10px 2px rgb(255, 0, 0);
+    background-color: red;
+}
+.orangelight:hover{
+    box-shadow: 0px 0px 10px 2px rgb(218, 131, 0);
+    background-color: orange;
+}
+.bnLight:hover{
+    box-shadow: 0px 0px 10px 1px rgb(10, 0, 102);
+    background-color: cyan;
+}
+.fixingPage{
+    position: fixed;
+    z-index: 1;
 }
